@@ -1,0 +1,114 @@
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 250px)) 1fr;
+    }
+    
+    
+main {
+    background: white;
+    margin: 10px 10px 10px 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:  lightgray;
+        color: #333;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 10px 5px 5px 5px;
+    padding: 1em 0;
+    
+}
+
+p {
+    margin: o;
+    padding: 1em 0;
+}
+
+    /* image section starts here */
+    #img-div {
+        background: white;
+    }
+    #img-caption {
+        color: #333;
+        font-size: 15px;
+    }
+
+ #image {
+    background: url('https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 580px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;        
+}
+
+    /* image section ends here*/
+#slider h1 {
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-size: 40px;
+    color: #333;
+}
+
+    #slider a{
+        color: dimgray;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+#slider .mother-wrapper,
+#img-div .mother-wrapper{
+    padding: 0 15px;
+}
+
+    /* tribute info starts here */
+    #tribute-info {
+        margin-top: 40px;
+    }
+    #tribute-info a {
+        font-size:20px; 
+        font-family: Arial, Helvetica, sans-serif;
+        color: #333;
+    }
+    #tribute-info ul {
+        text-align: left;
+  list-style: inside;      
+        margin: 20px 25% 20px 25%;
+        font-family: roboto, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #333;
+    }
+    #tribute-info li {
+        padding: 10px;
+    }
+    
+    /* tribute info ends here */
+     #quote {
+        font-style: italic;
+        font-size: 16px; 
+        margin: 30px 25% 20px 25%;
+         text-align: left;
+         
+    }
+    
+    #tribute {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    
+     
+    
+
+
