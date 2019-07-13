@@ -11,6 +11,20 @@ html,
     background-color: #fff;
     overflow: hidden;
 }
+hr {
+    background-color: #000;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 23%;
+    font-size: 30px;
+}
+
 
 .content div {
   padding: 20px;
