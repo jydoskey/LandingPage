@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html>
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
@@ -16,11 +15,13 @@
     <!-- endbuild-->
 
 </head>
-<body> 
-            <div class="row">
-             <main class="col-sm-3 navbar-dark">
-    <nav class="navbar-header" style="position: sticky">
-      <a class="navbar-brand navbar-fixed-top" href="#">JS Documentation</a> 
+  <body>
+      <div class="content">
+      <div class="left" style="max-width: 23%">          
+    <nav class="navbar-header navbar-dark">
+     <div class="navbar-fixed" id="title">
+      <a href="#">JS Documentation</a> 
+        </div>
     <ul class=" col-12">
      <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
      <hr>
@@ -49,10 +50,10 @@
      <li class="nav-item"><a class="nav-link" href="#function_declarations">Function declarations</a></li>
      <hr>
      <li class="nav-item"><a class="nav-link" href="#reference">Reference</a></li>
-        </ul></nav>
-            </main>
-           
-           <main class="col-md-9" id="main-doc">
+        </ul></nav></div>
+            
+        <div class="right"> 
+                     <main id="main-doc">
                       <section class="col-12 main-section" id="introduction">
                     <h3>Introduction</h3>
                     <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
@@ -251,13 +252,9 @@
                             <li> All the documentation in this page is taken from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">MDN</a> </li>
                         </ul>
                     </section>
-           </main>
-    </div>
-                   
-     <!-- main.js -->
+           </main></div>
+      </div>
 
- <script src="./javascript/bootstrap.min.js"></script>
- 
-
-    </body>
+     <script src="./javascript/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,3 +1,41 @@
+
+body {
+  margin: 0;
+  overflow: hidden;    
+}
+body,
+html,
+.content {
+  height: 100%;
+  max-height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.content div {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+}
+.row {
+  flex-direction: column;
+}
+.content {
+  overflow: hidden;
+}
+.content,
+.content div {
+  flex: 1;
+}
+.content div {
+  overflow:auto;
+}
+
+
+
+
 #main-doc {
     margin-bottom: 10%;
 }
@@ -23,23 +61,12 @@ hr {
     margin-bottom: 3%;
 }
 
-nav {
-    border-radius: 4px;
- border-right: 2px groove grey;
-}
-
 nav li a:hover {
     color: grey;
 }
 nav a {
     color: grey;
     text-decoration: none;
-}
-
-
-body {
-    z-index: 0;
-    background-color: #fff;    
 }
 
 .navbar-dark .navbar-nav .nav-link {
