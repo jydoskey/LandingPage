@@ -1,3 +1,4 @@
+/** introduction section begins */
 #welcome-section {
   justify-content: center;
   align-items: center;
@@ -18,11 +19,33 @@ color: white;
   font-style: oblique;
   color: #c21549;
 }
+/**Introduction section ends */
+
+#projects {
+  background-color: #45567d;
+  margin: 0;
+  padding: 0;
+}
+
+/** for thickness in projects */ 
+.thickness {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid white;
+  display: inline-flex;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
 
 .flex-container {
   display: flex;
 }
 
+/** Navigation bar begins */
 ul {
   list-style-type: none;
   margin: 0;
@@ -32,7 +55,7 @@ ul {
    position: fixed;
   top: 0;
   width: 100%;
-  height: 70px;
+  height: 65px;
   background-color: #c21549;
 }
 
@@ -51,51 +74,15 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #45567d;
+  text-decoration: none;
 }
 
-
-
-
-.content div {
-  padding: 20px;
-}
-
-.content {
-  display: flex;
-}
-.row {
-  flex-direction: column;
-}
-.content {
-  overflow: hidden;
-}
-.content,
-.content div {
-  flex: 1;
-}
-.content div {
-  overflow:auto;
-}
+/** Navigation bar ends */
 
 
 
 
-#main-doc {
-    margin-bottom: 10%;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    color: black;
-    text-decoration: none;
-    margin-top: 3%;
-    margin-bottom: 2%;
-}
-
-hr {
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
 
 
 
