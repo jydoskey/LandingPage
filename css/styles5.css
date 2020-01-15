@@ -1,0 +1,96 @@
+
+
+
+hr {
+    background-color: #000;
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  width: 100%;
+    font-size: 40px;
+}
+
+
+.content div {
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+}
+.row {
+  flex-direction: column;
+}
+.content {
+  overflow: hidden;
+}
+.content,
+.content div {
+  flex: 1;
+}
+.content div {
+  overflow:auto;
+}
+
+
+
+
+#main-doc {
+    margin-bottom: 10%;
+}
+
+section {
+    text-align: center;
+    color: grey;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: black;
+    text-decoration: none;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.nav-item {
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+}
+hr {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+nav li a:hover {
+    color: grey;
+}
+nav a {
+    color: grey;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    background-color: #eee;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #000;
+    background-color: #fff;
+}
+.navbar-dark {
+  background-color: #fff; }
+
+
+
+
+
+
+
+
+
+
