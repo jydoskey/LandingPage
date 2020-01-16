@@ -118,6 +118,12 @@ padding-bottom: 0;
   float:left;
   margin:0 20px 0 20px;
   width:366px;
+  height: 430px;
+  background-color: #333;
+  }
+
+  #myleft a {
+    text-decoration: none;
   }
 
   #mycenter {
@@ -125,13 +131,25 @@ padding-bottom: 0;
   float: left;
   margin:0 20px 0 20px;
   width:366px;
+  height: 430px;
+  background-color: #333;
   }
-   /*defeat ie 3 pixel jog*/
+
+  #mycenter a {
+    text-decoration: none;
+  }
+
   #myright {
   position:relative;
   float:left;
   margin:0 20px 0 20px;
   width:366px;
+  height: 430px;
+  background-color: #333;
+  }
+
+  #myright a {
+    text-decoration: none;
   }
 
   #downbelow {
@@ -139,12 +157,31 @@ padding-bottom: 0;
     margin:0 20px 0 20px;
     width:366px;
     margin: 40px 22px 40px 15px;
+    height: 430px;
+    background-color: #333;
+  }
+
+  #downbelow a {
+    text-decoration: none;
+  }
+
+  #text {
+    height: 40px;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 10px;
   }
 
   /* Image size definition */
   img {
     height: 380px;
     width: 366px;
+    margin: 0;
+    padding: 0;
   }
 
 
