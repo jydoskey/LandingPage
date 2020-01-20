@@ -118,7 +118,6 @@ padding-bottom: 0;
     width:366px;
     margin: 40px 22px 40px 15px;
     height: 430px;
-    background-color: #333;
     clear: both;
     margin-right: auto;
     margin-left: auto;
@@ -136,7 +135,10 @@ padding-bottom: 0;
     font-size: x-large;
     color: #f5f5f5;
     text-align: center;
-    vertical-align: top;
+    clear: both;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 0;
   }
 
@@ -242,7 +244,7 @@ hr {
 /*  SECTIONS  */
 .section {
   clear: both;
-  height: 430px;
+  height: 420px;
 	padding: 0px;
 	margin: 0px;
 }
